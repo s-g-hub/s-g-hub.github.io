@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strike Hub</title>
+    <link rel="shortcut icon" href="./assets/images/strike_logo.png">
+    <!-- REMIXICON -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <!--! === HEADER === -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="navbar__logo">
+                <img src="./assets/images/Titulo.png" alt="" class="navbar__logo-image">
+            </a>
+            <div class="navbar__menu">
+                <ul class="navbar__list">
+                    <li class="navbar__list-item">
+                        <a href="#home" class="navbar__list-link">Home</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#games" class="navbar__list-link">Games</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#about" class="navbar__list-link">About</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#developers" class="navbar__list-link">Developers</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#footer" class="navbar__list-link">Social</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar__btn-group">
+                <a href="https://dsc.gg/strike-hub" class="btn btn--text btn--transparent">Join Discord</a>
+                <button type="button" class="btn btn--action" id="menu-toggler">
+                    <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.3333 0.999999L0.999918 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.3333 6.83333L0.999916 6.83333" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M10.3333 12.6667L0.999918 12.6667" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!--! === MAIN === -->
+    <main>
+        <!--! === SHOWCASE === -->
+        <section class="showcase" id="home">
+            <div class="showcase__container container">
+                <h1 class="showcase__title title tittle--main">STRIKE HUB</h1>
+            </div>
+        </section>
+        <!--! === GAMES === -->
+    <section class="games" id="games">
+        <div class="games_container">
+            <div class="games__container-games">
+                <h2 class="games__container-title title">Supported Games</h2>
+                <div class="games__container-item-dsc">
+                    <div class="games__container-card-dsc">
+                        <a href="https://dsc.gg/strikehub">
+                            <img src="./assets/images/strike_logo.gif" alt="" class="games__container-image-dsc">
+                            <div class="games__container-details games__container-details-dsc">
+                                <h2>DISCORD SERVER</h2>
+                                <p>Join our Discord server to get the key! Click here.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="games__container-item">
+                    <div class="games__container-card">
+                        <a href="https://www.roblox.com/games/9283132959/Rebirths-Block-Breaker-Simulator">
+                            <img src="./assets/images/block-breaker-simulator.png" alt="" class="games__container-image">
+                            <div class="games__container-details">
+                                <h2>💥Block Breaker Simulator</h2>
+                                <p>⚔️ Break millions of blocks!</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="games__container-item">
+                    <div class="games__container-card">
+                        <a href="https://www.roblox.com/games/5327880096/Online-Business-Simulator-2">
+                            <img src="./assets/images/online-business-simulator-2.png" alt="" class="games__container-image">
+                            <div class="games__container-details">
+                                <h2>🏦 Business Simulator 2</h2>
+                                <p>🏢 Build your company from the ground up!</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!--! === ABOUT === -->
+        <section class="about" id="about">
+            <div class="about__container container">
+                <div class="about__information">
+                    <h2 class="about__information-title title">About strike hub</h2>
+                    <p class="about__information-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eveniet et magnam dicta expedita nisi beatae quia alias? Explicabo voluptatibus modi maxime, cumque nobis quibusdam neque tenetur optio a blanditiis.</p>
+                    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+                    <a href="https://dsc.gg/strikehub" class="btn btn--text btn-green" id="popToggler">Join discord</a>
+                </div>
+                <div class="about__images">
+                    <img src="./assets/images/strike_banner.png" alt="" class="about__images-image about__images-image--top">
+                    <img src="./assets/images/strike_logo.gif" alt="" class="about__images-image about__images-image--bottom">
+                </div>
+            </div>
+        </section>
+    <!--! === DEVELOPERS === -->
+    <section class="portfolio" id="developers">
+        <div class="portfolio__container container">
+            <div class="portfolio__metadata section-metadata">
+                <h2 class="title">Developers</h2>
+            </div>
+            <div class="swiper proyectos-sw">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="http://a.com">
+                            <img src="./assets/images/owner-TK.png" alt="">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="http://instagram.com/Raul_RDA">
+                            <img src="./assets/images/system-dev_RaulRDA.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!--! === FOOTER === -->
+    <footer class="footer" id="footer">
+        <div class="footer__container container">
+            <div class="footer__group">
+                <h2 class="footer__title title tittle--main">¿Buscando un programador profesional?</h2>
+                <a href="mailto:raulrda.soporte@gmail.com" class="btn btn--text btn--transparent">Contacta conmigo</a>
+            </div>
+            <span class="footer__separator"></span>
+            <div class="footer__group">
+                <a href="#" class="footer__logo">
+                    <img src="./assets/images/Titulo.png" alt="">
+                </a>
+                <p class="footer__description">Si quieres contactar conmigo, haz clic en el botón "CONTÁCTAME" o ve a mis redes sociales:</p>
+                <ul class="footer__list">
+                    <li class="footer__list-item">
+                        <a href="https://www.instagram.com/Raul_RDA/" class="footer__list-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="https://www.facebook.com/RdeRaulRDA/" class="footer__list-link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="https://github.com/RaulRDA" class="footer__list-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="https://www.youtube.com/channel/UCoigvTuDeBGSSBnW6trwMvg" class="footer__list-link">
+                            <i class="ri-youtube-line"></i>
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="https://twitch.tv/rulaxrda" class="footer__list-link">
+                            <i class="ri-twitch-line"></i>
+                        </a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="https://discord.gg/wpSq4wapYC" class="footer__list-link">
+                            <i class="ri-discord-line"></i>
+                        </a>
+                    </li>
+                </ul>
+                <span class="footer__copyright">&copy; Raul RDA 2022. Todos los derechos reservados.</span>
+            </div>
+        </div>
+    </footer>
+    <!-- SWIPERJS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
