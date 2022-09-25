@@ -417,7 +417,7 @@ main{
   background: element("card-image") center center / cover;
   border-radius: 10px;
   height: 30rem;
-  width: 45rem;
+  width: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -448,11 +448,10 @@ main{
 .games__container-details {
   position: absolute;
   margin-bottom: 0px;
-  bottom: -100px;
+  bottom: -500px;
   left: 0;
-  padding: 70px;
+  padding: 50px;
   background: linear-gradient(0deg, black, transparent);
-  background-position: center;
   transition: 0.3s ease;
 }
 
@@ -487,7 +486,6 @@ main{
 }
 
 .games__container-details p {
-  text-align: center;
   font-size: 13px;
   color: white;
   padding-bottom: 5px;
@@ -654,6 +652,19 @@ main{
   .footer__description{
     max-width: 50rem;
     margin-inline: auto;
+  }
+  .games__container-card {
+    background: element("card-image") center center / cover;
+    border-radius: 10px;
+    height: 30rem;
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    z-index: -1;
+    cursor: pointer;
+    transition: 0.3s;
   }
 }
 
