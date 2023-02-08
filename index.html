@@ -1,295 +1,293 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strike Hub</title>
-    <link rel="shortcut icon" href="./assets/images/strike_logo.png">
-    <!-- REMIXICON -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <!-- SWIPER -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
-    <!-- SCROLL REVEAL -->
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <link rel="stylesheet" href="./assets/css/styles.css">
-</head>
+<html lang="en">
 
-<body>
-    <!--! === HEADER === -->
-    <header class="header">
-        <nav class="navbar container">
-            <a href="" class="navbar__logo">
-                <img src="./assets/images/Titulo.png" alt="" class="navbar__logo-image">
-            </a>
-            <div class="navbar__menu">
-                <ul class="navbar__list">
-                    <li class="navbar__list-item">
-                        <a href="#home" class="navbar__list-link">Home</a>
-                    </li>
-                    <li class="navbar__list-item">
-                        <a href="#games" class="navbar__list-link">Games</a>
-                    </li>
-                    <li class="navbar__list-item">
-                        <a href="#about" class="navbar__list-link">About</a>
-                    </li>
-                    <li class="navbar__list-item">
-                        <a href="#developers" class="navbar__list-link">Developers</a>
-                    </li>
-                    <li class="navbar__list-item">
-                        <a href="#footer" class="navbar__list-link">Social</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="navbar__btn-group">
-                <a href="https://dsc.gg/strike-hub" class="btn btn--text btn--transparent">Join Discord</a>
-                <button type="button" class="btn btn--action" id="menu-toggler">
-                    <svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.3333 0.999999L0.999918 1" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M17.3333 6.83333L0.999916 6.83333" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M10.3333 12.6667L0.999918 12.6667" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
-            </div>
-        </nav>
-    </header>
-    <!--! === MAIN === -->
-    <main>
-        <!--! === SHOWCASE === -->
-        <section class="showcase" id="home">
-            <div class="showcase__container container">
-                <h1 class="showcase__title title tittle--main">STRIKE HUB</h1>
-            </div>
-        </section>
-        <!--! === GAMES === -->
-    <section class="games" id="games">
-        <div class="games_container">
-            <div class="games__container-games">
-                <h2 class="games__container-title title">Supported Games</h2>
-                <div class="games__container-item-dsc">
-                    <div class="games__container-card-dsc">
-                        <a href="https://dsc.gg/strikehub">
-                            <img src="./assets/images/strike_logo.gif" alt="" class="games__container-image-dsc">
-                            <div class="games__container-details games__container-details-dsc">
-                                <h2>DISCORD SERVER</h2>
-                                <p>Join our Discord server to get the key! Click here.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="games__container-item">
-                    <div class="games__container-card">
-                        <a href="https://www.roblox.com/games/9283132959/Rebirths-Block-Breaker-Simulator">
-                            <img src="./assets/images/block-breaker-simulator.png" alt="" class="games__container-image">
-                            <div class="games__container-details">
-                                <h2>💥 Block Breaker Simulator</h2>
-                                <p>⚔️ Break millions of blocks!</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="games__container-item">
-                    <div class="games__container-card">
-                        <a href="https://www.roblox.com/games/5327880096/Online-Business-Simulator-2">
-                            <img src="./assets/images/online-business-simulator-2.png" alt="" class="games__container-image">
-                            <div class="games__container-details">
-                                <h2>🏢 Online business simulator 2</h2>
-                                <p>🏦 Build your company from the ground up!</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="games__container-item">
-                    <div class="games__container-card">
-                        <a href="https://www.roblox.com/games/1962086868/Tower-of-Hell">
-                            <img src="./assets/images/tower-of-hell.png" alt="" class="games__container-image">
-                            <div class="games__container-details">
-                                <h2>🗼 Tower of hell</h2>
-                                <p>🏆 Be the first to reach the top of this randomly generated obby without any checkpoints!</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="games__container-item">
-                    <div class="games__container-card">
-                        <a href="https://www.roblox.com/games/286090429/Arsenal">
-                            <img src="./assets/images/arsenal.png" alt="" class="games__container-image">
-                            <div class="games__container-details">
-                                <h2>🔫 Arsenal</h2>
-                                <p>🏁 Race your way to the top through a huge arsenal of weapons!</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="games__container-item">
-                    <div class="games__container-card">
-                        <a href="https://www.roblox.com/games/9522149469/Strong-Clickers">
-                            <img src="./assets/images/strong-clickers.png" alt="" class="games__container-image">
-                            <div class="games__container-details">
-                                <h2>🖱 Strong clickers</h2>
-                                <p>💪 Click to gain strength! · 💰  Sell strength to receive coins!</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="games__container-item">
-                    <div class="games__container-card">
-                        <a href="https://www.roblox.com/games/6716188523/Business-Tycoon">
-                            <img src="./assets/images/business-tycoon.png" alt="" class="games__container-image">
-                            <div class="games__container-details">
-                                <h2>💸 Business Tycoon</h2>
-                                <p>💲 Guard Tactical Untitled Circus Fear Maker Destiny · Premium Benefits: +20% Cash</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="games__container-item-dsc">
-                    <div class="games__container-card-dsc">
-                        <a href="https://dsc.gg/strikehub">
-                            <img src="./assets/images/strike_logo.gif" alt="" class="games__container-image-dsc">
-                            <div class="games__container-details games__container-details-dsc">
-                                <h2>DISCORD SERVER</h2>
-                                <p>Join our Discord server to get the key! Click here.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="games__container-item-dsc">
-                    <div class="games__container-card-dsc">
-                        <a href="https://dsc.gg/strikehub">
-                            <img src="./assets/images/strike_logo.gif" alt="" class="games__container-image-dsc">
-                            <div class="games__container-details games__container-details-dsc">
-                                <h2>DISCORD SERVER</h2>
-                                <p>Join our Discord server to get the key! Click here.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="games__container-item">
-                    <div class="games__container-card">
-                        <a href="https://www.roblox.com/games/5098929086/MUSHROOM-TAPPING-SIMULATOR">
-                            <img src="./assets/images/mushroom-tapping-simulator.png" alt="" class="games__container-image">
-                            <div class="games__container-details">
-                                <h2>🍄 MUSHROOM TAPPING SIMULATOR</h2>
-                                <p>✨ Tap the Tap button · 🐱 Buy pets</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="games__container-item">
-                    <div class="games__container-card">
-                        <a href="https://www.roblox.com/games/2788229376/Da-Hood">
-                            <img src="./assets/images/da-hood.png" alt="" class="games__container-image">
-                            <div class="games__container-details">
-                                <h2>🏍 Da hood</h2>
-                                <p>🏋️‍♂️ To gain muscle buy weights at fitness · 🥬 Eat lettuce to reduce muscle.</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="games__container-item">
-                    <div class="games__container-card">
-                        <a href="https://www.roblox.com/games/8950974597/Anime-Speed-Simulator">
-                            <img src="./assets/images/anime-speed-simulator.png" alt="" class="games__container-image">
-                            <div class="games__container-details">
-                                <h2>⚡ Anime Speed Simulator</h2>
-                                <p>🖱️ Click to get more steps and build up speed!</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-        <!--! === ABOUT === -->
-        <section class="about" id="about">
-            <div class="about__container container">
-                <div class="about__information">
-                    <h2 class="about__information-title title">About strike hub</h2>
-                    <p class="about__information-description">This is the description.</p>
-                    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-                    <a href="https://dsc.gg/strikehub" class="btn btn--text btn-green" id="popToggler">Join discord</a>
-                </div>
-                <div class="about__images">
-                    <img src="./assets/images/strike_banner.png" alt="" class="about__images-image about__images-image--top">
-                    <img src="./assets/images/strike_logo.gif" alt="" class="about__images-image about__images-image--bottom">
-                </div>
-            </div>
-        </section>
-    <!--! === DEVELOPERS === -->
-    <section class="portfolio" id="developers">
-        <div class="portfolio__container container">
-            <div class="portfolio__metadata section-metadata">
-                <h2 class="title">Developers</h2>
-            </div>
-            <div class="swiper proyectos-sw">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <a href="http://a.com">
-                            <img src="./assets/images/owner-TK.png" alt="">
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="http://instagram.com/Raul_RDA">
-                            <img src="./assets/images/system-dev_RaulRDA.png" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
-    </section>
-    <!--! === FOOTER === -->
-    <footer class="footer" id="footer">
-        <div class="footer__container container">
-            <div class="footer__group">
-                <h2 class="footer__title title tittle--main">What are you waiting?</h2>
-                <a href="https://dsc.gg/strikehub" class="btn btn--text btn--transparent">JOIN DISCORD</a>
-            </div>
-            <span class="footer__separator"></span>
-            <div class="footer__group">
-                <a href="" class="footer__logo">
-                    <img src="./assets/images/Titulo.png" alt="">
-                </a>
-                <p class="footer__description">This page was made by Raul_RDA:</p>
-                <ul class="footer__list">
-                    <li class="footer__list-item">
-                        <a href="https://www.instagram.com/Raul_RDA/" class="footer__list-link">
-                            <i class="ri-instagram-line"></i>
-                        </a>
-                    </li>
-                    <li class="footer__list-item">
-                        <a href="https://www.facebook.com/RdeRaulRDA/" class="footer__list-link">
-                            <i class="ri-facebook-circle-line"></i>
-                        </a>
-                    </li>
-                    <li class="footer__list-item">
-                        <a href="https://github.com/RaulRDA" class="footer__list-link">
-                            <i class="ri-github-line"></i>
-                        </a>
-                    </li>
-                    <li class="footer__list-item">
-                        <a href="https://www.youtube.com/channel/UCoigvTuDeBGSSBnW6trwMvg" class="footer__list-link">
-                            <i class="ri-youtube-line"></i>
-                        </a>
-                    </li>
-                    <li class="footer__list-item">
-                        <a href="https://twitch.tv/rulaxrda" class="footer__list-link">
-                            <i class="ri-twitch-line"></i>
-                        </a>
-                    </li>
-                    <li class="footer__list-item">
-                        <a href="https://discord.gg/wpSq4wapYC" class="footer__list-link">
-                            <i class="ri-discord-line"></i>
-                        </a>
-                    </li>
-                </ul>
-                <span class="footer__copyright">&copy; Raul RDA 2022. All rights reserved.</span>
-            </div>
-        </div>
-    </footer>
-    <!-- SWIPERJS -->
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="./assets/js/app.js"></script>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Strike Hub">
+<meta name="author" content="Naifen">
+<meta property="og:site_name" content="Strike Hub" />
+<meta property="og:site" content="../SrikeHUB" />
+<meta property="og:title" content="Strike Hub" />
+<meta property="og:description" content="Werde noch heute ein Teil von uns!" />
+<meta property="og:image" content="" />
+<meta property="og:url" content="." />
+<meta property="og:type" content="website" />
+<title>Strike Hub</title>
+<link href="../fonts.googleapis.com/css203a.css?family=Montserrat:400,600,700" rel="stylesheet">
+<link href="../fonts.googleapis.com/css069f.css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/fontawesome-all.css" rel="stylesheet">
+<link href="css/swiper.css" rel="stylesheet">
+<link href="css/magnific-popup.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+<link rel="icon" href="images/dlrp.png">
+</head>
+</audio>
+<div class="spinner-wrapper">
+<div class="spinner">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+</div>
+<nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+<a class="navbar-brand logo-image" href="index.html"> <i src="alternative"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-awesome fas fa-bars"></span>
+<span class="navbar-toggler-awesome fas fa-times"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link page-scroll" href="#header">START<span class="sr-only">(current)</span></a>
+</li>
+<li class="nav-item">
+<a class="nav-link page-scroll" target="_blank" href="https://link-center.net/541926/strike-hub-key-link">KEY</a>
+</li>
+<li class="nav-item">
+<a class="nav-link page-scroll" target="_blank" href="https://pastebin.com/gRKdV3mi" disabled>SCRIPT</a>
+</li>
+<li class="nav-item">
+<a class="nav-link page-scroll" target="_blank" href="https://discord.gg/strikehub">DISCORD</a>
+</li>
+<li class="nav-item">
+
+</li>
+</ul>
+</div>
+</nav>
+
+<header id="header" class="header">
+
+    <div class="header" style="background-color: #0c0011;">
+        <img class="bg" src="images/header-background.jpg" alt="alternative">
+    <div class="header-content">
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-6">
+    <div class="text-container">
+        <style>
+.bg {
+position: absolute;
+  top: 200px;
+  left: 250px;
+
+ }
+</style>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class="cards-1" style="background-color: #0c0011;">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<div class="card" style="background-color: #0c0011;box-shadow: 0px 0px 10px 1px rgba(153, 0, 255, 0.8);">
+<div class="fa-stackspace"></div>
+<span class="fa-stack"></span>
+<i class="fas s fa-industry fa-stack-1x" style="color: rgb(153, 0, 255, 0.8);"></i>
+</span>
+<div class="card-body">
+<h4 class="card-title" style="text-align: center;color: white;">TEAM</h4>
+<p style="text-align: center;">Our support is available around the clock, but you come to the Discord.</p>
+</div>
+</div>
+<div class="card" style="background-color: #0c0011;box-shadow: 0px 0px 10px 1px rgba(153, 0, 255, 0.8);">
+<div class="fa-stackspace"></div>
+<span class="fa-stack"></span>
+<i class="fas fa-rocket fa-stack-1x" style="color: rgb(153, 0, 255, 0.8);"></i>
+</span>
+<div class="card-body">
+<h4 class="card-title" style="text-align: center;color: white;">PERFORMANCE</h4>
+<p style="text-align: center;">The performance of our scripts is very good, we pay a lot of attention to the performance</p>
+</div>
+</div>
+<div class="card" style="background-color: #0c0011;box-shadow: 0px 0px 10px 1px rgba(153, 0, 255, 0.8);">
+<div class="fa-stackspace"></div>
+<span class="fa-stack"></span>
+<i class="fas fa-users-cog fa-stack-1x" style="color: rgb(153, 0, 255, 0.8);"></i>
+</span>
+<div class="card-body">
+<h4 class="card-title" style="text-align: center;color: white;">STATISTICS</h4>
+<p style="text-align: center;">We invest a lot of time that our scripts always work even after updates.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="features" class="tabs">
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<h2>INFORMAION</h2>
+<div class="p-heading p-large">Here you can see information</div>
+</div>
+</div>
+<div class="row">
+<ul class="nav nav-tabs" id="lenoTabs" role="tablist">
+<li class="nav-item">
+<a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="fas fa-cog"></i>GENERAL</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-binoculars"></i>GAMES</a>
+</li>
+</ul>
+<div class="tab-content" id="lenoTabsContent">
+<div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+<div class="container">
+<div class="row">
+<div class="col-lg-4">
+<div class="card left-pane first">
+<div class="card-body">
+<div class="text-wrapper">
+
+
+</div>
+</div>
+</div>
+<div class="card left-pane">
+<div class="card-body">
+<div class="text-wrapper">
+<h4 class="card-title">DEVELOPMENT</h4>
+<p>We work daily for new Script.</p>
+</div>
+<div class="card-icon">
+<i class="far fa-file-code"></i>
+</div>
+</div>
+</div>
+<div class="card left-pane">
+<div class="card-body">
+<div class="text-wrapper">
+<h4 class="card-title">PREMIUM</h4>
+<p>In our Discord you can buy Premium access </p>
+</div>
+<div class="card-icon">
+<i class="far fa-gem"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4">
+<img class="img-fluid" src="images/features-iphone-1.png" alt="alternative">
+</div>
+<div class="col-lg-4">
+<div class="card right-pane first">
+<div class="card-body">
+<div class="">
+</div>
+</div>
+</div>
+<div class="card right-pane">
+<div class="card-body">
+<div class="card-icon">
+<i class="far fa-bookmark"></i>
+</div>
+<div class="text-wrapper">
+ <h4 class="card-title">JOB OFFERS</h4>
+<p>In our discord you can apply as a Supporter or Developer.</p>
+</div>
+</div>
+</div>
+<div class="card right-pane">
+<div class="card-body">
+<div class="card-icon">
+<i class="far fa-calendar-check"></i>
+</div>
+<div class="text-wrapper">
+<h4 class="card-title">SUPPORT</h4>
+<p>It is important to us that you receive support so you can open a ticket in our Discord</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+<div class="container">
+<div class="row">
+
+<div class="col-md-4">
+<img class="img-fluid" src="images/features-iphone-2.png" alt="alternative">
+</div>
+
+
+<div class="col-md-8">
+<div class="text-area">
+<h3>GAMES SUPPORTET</h3>
+</div> 
+
+<div class="card">
+<div class="card-icon">
+<i class="far fa-file-code"></i>
+</div>
+<div class="card-body">
+
+<p>
+    https://discord.gg/strikehub
+</p>
+</div>
+</div>
+</div> 
+</div> 
+
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+
+
+
+
+
+<script src="js/jquery.min.js"></script> 
+<script src="js/popper.min.js"></script> 
+<script src="js/main.min.js"></script> 
+<script src="js/jquery.easing.min.js"></script> 
+<script src="js/swiper.min.js"></script> 
+<script src="js/jquery.magnific-popup.js"></script> 
+<script src="js/morphext.min.js"></script> 
+<script src="js/validator.min.js"></script> 
+<script src="js/scripts.js"></script> 
+<script>
+    // disable right click
+    document.addEventListener('contextmenu', event => event.preventDefault());
+ 
+    document.onkeydown = function (e) {
+ 
+        // disable F12 key
+        if(e.keyCode == 123) {
+            return false;
+        }
+ 
+        // disable I key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+            return false;
+        }
+ 
+        // disable J key
+        if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+            return false;
+        }
+ 
+        // disable U key
+        if(e.ctrlKey && e.keyCode == 85) {
+            return false;
+        }
+    }
+ 
+</script>
 </body>
 </html>
