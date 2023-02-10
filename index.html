@@ -48,7 +48,7 @@
 <a class="nav-link page-scroll" target="_blank" href="https://bit.ly/s-g-key">KEY</a>
 </li>
 <li class="nav-item">
-<a class="nav-link page-scroll" target="_blank" disabled>SCRIPT</a>
+<a class="nav-link page-scroll" target="_blank" id="cute-alert">SCRIPT</a>
 </li>
 <li class="nav-item">
 <a class="nav-link page-scroll" target="_blank" href="https://dsc.gg/s-g-hub">DISCORD</a>
@@ -264,6 +264,18 @@ position: absolute;
 <script src="assets/js/scripts.js"></script>
 <script src="assets/cute-alert/cute-alert.js"></script>
 <script>
+    
+    const alertButton = document.getElementById('cute-alert');
+
+    alertButton.addEventListener("click", () => {
+      cuteToast({
+        type: "error",
+        title: "Script Still On Development Stage",
+        message: "Please be patient until it is done",
+        timer: 5000,
+      });
+    });
+    
     // disable right click
     document.addEventListener('contextmenu', event => event.preventDefault());
  
